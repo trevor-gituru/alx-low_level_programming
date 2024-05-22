@@ -9,9 +9,12 @@
  */
 int main(void)
 {
-	char *message = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char message[100] = "and that piece of art is useful\"";
+	char m2[] = " - Dora Korpar, 2015-10-19\n";
+
+	strcat(message, m2);
 	/* Using the write function to print the string followed by a new line */
 	write(STDOUT_FILENO, message, strlen(message));
 	/* End the program with the value 0 */
-	return (0);
+	return (1);
 }
