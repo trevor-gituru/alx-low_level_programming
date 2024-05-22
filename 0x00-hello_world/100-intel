@@ -1,0 +1,2 @@
+#! /bin/bash
+gcc -S -o 7-main.s 7-main.c
