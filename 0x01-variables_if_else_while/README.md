@@ -35,3 +35,9 @@ A program that prints the alphabet in lowercase, followed by a new line.
 ## Task 5
 A program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 - All the code should be in the main function
+
+## Task 6
+A program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+- Without using any variable of type char
+- Only using the putchar function (every other function (printf, puts, etc) is forbidden)
+- Only using putchar twice in your code
