@@ -12,7 +12,6 @@ int main(void)
 	number = '0';
 	for (n = 0; n < 10; n++)
 	{
-	
 		putchar(number);
 		number = (char) (((int) number) + 1);
 	}
