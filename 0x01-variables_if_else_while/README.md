@@ -47,3 +47,9 @@ A program that prints the lowercase alphabet in reverse, followed by a new line.
 - Only using the putchar function (every other function (printf, puts, etc) is forbidden)
 - All the code should be in the main function
 - Only using putchar twice in your code
+
+## Task 8 - Hexadeximal
+A program that prints all the numbers of base 16 in lowercase, followed by a new line.
+- Only using the putchar function (every other function (printf, puts, etc) is forbidden)
+- All the code should be in the main function
+- Only using putchar three times in your code
