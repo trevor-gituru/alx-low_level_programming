@@ -9,7 +9,7 @@ int main(void)
 	char letter;
 	int n;
 
-	letter = 'A';
+	letter = 'a';
 	for (n = 0; n < 26; n++)
 	{
 		putchar(letter);
