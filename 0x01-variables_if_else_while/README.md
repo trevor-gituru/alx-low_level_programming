@@ -53,3 +53,12 @@ A program that prints all the numbers of base 16 in lowercase, followed by a new
 - Only using the putchar function (every other function (printf, puts, etc) is forbidden)
 - All the code should be in the main function
 - Only using putchar three times in your code
+
+## Task 8- . Patience, persistence and perspiration make an unbeatable combination for success
+A program that prints all possible combinations of single-digit numbers.
+- Numbers must be separated by `,` , followed by a space
+- Numbers should be printed in ascending order
+- Only use the putchar function (every other function (printf, puts, etc) is forbidden)
+- All your code should be in the main function
+- Only use putchar four times maximum in your code
+- Without using any variable of type char
