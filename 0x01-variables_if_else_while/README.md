@@ -24,3 +24,10 @@ A program that prints the alphabet in lowercase, and then in uppercase, followed
 - Only use the putchar function (every other function (printf, puts, etx) is forbidden)
 - All your code should be in the main function
 - You can only use putchar three times in your code
+
+## Task 4
+A program that prints the alphabet in lowercase, followed by a new line.
+- Print all the letters except q and e.
+- Only using the putchar function (every other function (printf, puts, etc) is forbidden)
+- All the code should be in the main function
+- You can only use putchar twice in your code
