@@ -41,3 +41,9 @@ A program that prints all single digit numbers of base 10 starting from 0, follo
 - Without using any variable of type char
 - Only using the putchar function (every other function (printf, puts, etc) is forbidden)
 - Only using putchar twice in your code
+
+## Task 7
+A program that prints the lowercase alphabet in reverse, followed by a new line.
+- Only using the putchar function (every other function (printf, puts, etc) is forbidden)
+- All the code should be in the main function
+- Only using putchar twice in your code
