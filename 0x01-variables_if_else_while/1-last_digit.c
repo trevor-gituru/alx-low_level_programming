@@ -4,7 +4,8 @@
 
 /**
  * main- Evaluates last digit of n
- * return- Always success
+ *
+ * Return: Always 0(success)
  */
 int main(void)
 {
