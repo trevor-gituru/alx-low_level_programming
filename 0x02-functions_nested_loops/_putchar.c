@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 /**
- * prints - Prints a character
+ * prints - Prints a single character
  *
  * Return: Null
  */
