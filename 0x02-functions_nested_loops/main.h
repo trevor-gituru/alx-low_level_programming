@@ -1,13 +1,11 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef MAIN_H_
+#define MAIN_H_
 
-/* Header files */
-#include <unistd.h>
 #include <string.h>
-
 /* Function prototype */
 int _putchar(char c);
+/*
 void print_alphabet(void);
 void print_alphabet_x10(void);
-
+*/
 #endif
