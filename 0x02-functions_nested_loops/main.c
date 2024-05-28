@@ -1,7 +1,6 @@
 /* Header files */
 #include "main.h"
 #include <unistd.h>
-#include <string.h>
 
 /**
  * prints - Prints a character
