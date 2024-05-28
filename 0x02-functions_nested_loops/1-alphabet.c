@@ -1,12 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Prints the alphabet
  *
- * Return: Always 0 (Success)
+ * Return: Null
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();	
-	return (0);
+	char letter;
+        int n;
+
+        letter = 'a';
+        for (n = 0; n < 26; n++)
+        {
+                _putchar(letter);
+                letter = (char) (((int) letter) + 1);
+        }
+        _putchar('\n');
+
 }
