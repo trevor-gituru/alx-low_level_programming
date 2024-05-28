@@ -7,17 +7,38 @@
 
 /* Function prototype */
 void prints(void);
+void print_alphabet(void);
 
 /**
- * prints - Prints the _putchar string
+ * prints - Prints a character
  *
  * Return: Null
  */
-void prints(void)
+int _putchar(char c)
 {
-	char message[] = "_putchar\n";
 
-	/* Using the write function to print the string followed by a new line */
-	write(STDOUT_FILENO, message, strlen(message));
+	/* Using the write function to print the character followed by a new line */
+	return write(STDOUT_FILENO, &c, 1);
 }
+
+/**
+ * print_alphabet - Prints the alphabet
+ *
+ * Return: Null
+ */
+void print_alphabet(void)
+{
+	char letter;
+        int n;
+
+        letter = 'a';
+        for (n = 0; n < 26; n++)
+        {
+                _putchar(letter);
+                letter = (char) (((int) letter) + 1);
+        }
+        _putchar('\n');
+
+}
+
 #endif
