@@ -1,2 +1,4 @@
 # Ignore all executale files
 *.out
+# Ignore new executable files
+_[0-9]*

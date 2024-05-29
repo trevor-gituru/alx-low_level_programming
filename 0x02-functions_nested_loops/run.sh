@@ -13,12 +13,12 @@ SOURCE_FILE=$1
 OUTPUT_FILE="${SOURCE_FILE%.c}.out"
 
 #Compile source file with specified flags & output as 'exe'
-gcc -Wall -Werror -pedantic -Wextra -std=gnu89 -o "$OUTPUT_FILE" "$SOURCE_FILE"
+gcc -Wall -Werror -pedantic -Wextra -std=gnu89 _putchar.c  "$1"* -o "_$1" 
 
 # Check if compilation was successf
 if [ $? -eq 0 ]; then
-	echo "Compilation was succesful, Executable file $OUTPUT_FILE created"
-	./"$OUTPUT_FILE"
+	echo "Compilation was succesful, Executable file _$1 created"
+	./"_$1"
 else
 	echo "Compilaton failed."
 fi
