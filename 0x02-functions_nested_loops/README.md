@@ -87,7 +87,7 @@ Write a program that finds and prints the first `98` Fibonacci numbers, starting
 ## Usage
 ```bash
 `./run.sh <Task-number>`
-
+```
 ## Resources
 - [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
 - [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
