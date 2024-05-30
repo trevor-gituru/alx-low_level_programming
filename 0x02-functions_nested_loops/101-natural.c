@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * natural - Evaluates sum of multiples of 3 & 5 till 1024
- * Return: Sum of multiples
+ * main - Evaluates sum of multiples of 3 & 5 till 1024
+ * Return: Always 0
  */
-int natural(void)
+int main(void)
 {
 	int sum = 0;
 	int i;
@@ -17,5 +17,5 @@ int natural(void)
 		}
 	}
 	printf("The sum of muliples is: %d.\n", sum);
-	return (sum);
+	return (0);
 }
