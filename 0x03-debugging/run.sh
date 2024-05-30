@@ -13,7 +13,7 @@ SOURCE_FILE=$1
 OUTPUT_FILE="${SOURCE_FILE%.c}.out"
 
 #Compile source file with specified flags & output as 'exe'
-gcc -Wall -Werror -pedantic -Wextra -std=gnu89 _putchar.c  "$1"* -o "_$1" 
+gcc -Wall -Werror -pedantic -Wextra -std=gnu89 "$1"* -o "_$1" 
 
 # Check if compilation was successf
 if [ $? -eq 0 ]; then

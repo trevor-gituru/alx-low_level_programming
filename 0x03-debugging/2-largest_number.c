@@ -10,20 +10,17 @@
 
 int largest_number(int a, int b, int c)
 {
-    int largest;
+	int i;
+	int n[3];
+	int largest = a;
 
-    if (a > b && b > c)
-    {
-        largest = a;
-    }
-    else if (b > a && a > c)
-    {
-        largest = b;
-    }
-    else
-    {
-        largest = c;
-    }
-
-    return (largest);
+	n[0] = a;
+	n[1] = b;
+	n[2] = c;
+	for (i = 1; i < 3; i++)
+	{
+		if (n[i] > largest)
+			largest = n[i];
+	}
+	return (largest);
 }
