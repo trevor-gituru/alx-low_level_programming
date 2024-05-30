@@ -5,7 +5,7 @@ Concepts learnt:
 - What is the difference between a declaration and a definition of a function
 - What is a prototype
 - Scope of variables
-- What are the gcc flags '-Wall' '-Werror' '-pedantic' '-Wextra' '-std=gnu89'
+- What are the gcc flags `-Wall` `-Werror` `-pedantic` `-Wextra` `-std=gnu89`
 - What are header files and how to to use them with '#include'
   
 ## Task 0- _putchar
@@ -14,7 +14,7 @@ Write a program that prints _putchar, followed by a new line.
 ## Task 0- _putchar
 ## Task 1- I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
 Write a function that prints the alphabet, in lowercase, followed by a new line.
-- Prototype: **void print_alphabet(void)**;
+- Prototype: `void print_alphabet(void)`;
 - You can only use _putchar twice in your code
 ## Task 0- _putchar
 ## Task 0- _putchar
