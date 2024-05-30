@@ -16,6 +16,6 @@ int main(void)
 			sum += i;
 		}
 	}
-	printf("The sum of muliples is: %d.\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
