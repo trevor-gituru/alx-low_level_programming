@@ -11,7 +11,25 @@ Concepts learnt:
 ## Task 0- _putchar
 Write a program that prints _putchar, followed by a new line.
 - The program should return 0
-
+## Task 0- _putchar
+## Task 1- I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
+Write a function that prints the alphabet, in lowercase, followed by a new line.
+- Prototype: **void print_alphabet(void)**;
+- You can only use _putchar twice in your code
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
+## Task 0- _putchar
 ## Resources
 - [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
 - [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
