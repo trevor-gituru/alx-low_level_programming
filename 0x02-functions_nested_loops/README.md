@@ -84,6 +84,9 @@ Write a program that finds and prints the first `98` Fibonacci numbers, starting
 - You are not allowed to use any other library (You can’t use `GMP` etc…)
 - You are not allowed to use `long long`, `malloc`, `pointers`, `arrays/tables`, or `structures`
 - You are not allowed to hard code any Fibonacci number (except for `1` and `2`)
+## Usage
+```bash
+`./run.sh <Task-number>
 ## Resources
 - [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
 - [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
