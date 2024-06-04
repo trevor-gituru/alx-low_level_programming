@@ -1,0 +1,4 @@
+# Ignore new executable files
+_[0-9]*
+# Ignore push files
+push.sh
