@@ -147,7 +147,20 @@ LOOK UP!
 LOOK UP!
 julien@ubuntu:~/0x06$ 
 ```
-## Task 
+## Task 6. Expect the best. Prepare for the worst. Capitalize on what comes
+Write a function that capitalizes all words of a string.
+
+- Prototype: `char *cap_string(char *);`
+- Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+```bash
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-cap_string.c -o 6-cap
+julien@ubuntu:~/0x06$ ./6-cap 
+Expect The Best. Prepare For The Worst. Capitalize On What Comes.
+Hello World! Hello-world 0123456hello World Hello World.Hello World
+Expect The Best. Prepare For The Worst. Capitalize On What Comes.
+Hello World! Hello-world 0123456hello World Hello World.Hello World
+julien@ubuntu:~/0x06$ 
+```
 ## Task 
 ## Task 
 ## Task 
