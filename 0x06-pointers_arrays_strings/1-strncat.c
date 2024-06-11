@@ -30,7 +30,12 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		*(dest + dest_len + i) = *(src + i);
 	}
-	*(dest + dest_len + src_len + 1) = '\0';
+    if (98 - dest_len > n)
+    {
+        *(dest + dest_len + src_len + 1) = '\0';
+    }
+    
+	
 
 	return (dest);
 }
