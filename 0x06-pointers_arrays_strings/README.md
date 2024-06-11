@@ -126,8 +126,27 @@ julien@ubuntu:~/0x06$ ./3-strcmp
 0
 ```
 julien@ubuntu:~/0x06$ 
-## Task 
-## Task 
+## Task 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy
+Write a function that reverses the content of an array of integers.
+- Prototype: `void reverse_array(int *a, int n);`
+- Where `n` is the number of elements of the array
+```bash
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-rev_array.c -o 4-rev_array
+julien@ubuntu:~/0x06$ ./4-rev_array 
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 98, 1024, 1337
+1337, 1024, 98, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+julien@ubuntu:~/0x06$ 
+```
+## Task 5. Always look up
+Write a function that changes all lowercase letters of a string to uppercase.
+- Prototype: `char *string_toupper(char *);`
+```bash
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-string_toupper.c -o 5-string_toupper
+julien@ubuntu:~/0x06$ ./5-string_toupper 
+LOOK UP!
+LOOK UP!
+julien@ubuntu:~/0x06$ 
+```
 ## Task 
 ## Task 
 ## Task 
