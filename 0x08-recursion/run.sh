@@ -10,7 +10,7 @@ fi
 SOURCE_FILE=$1
 
 #Compile source file with specified flags & output as '<task-number>.out'
-gcc -Wall -Werror -pedantic -Wextra -std=gnu89 "$1"* -o "_$1.out" 
+gcc -Wall -Werror -pedantic -Wextra -std=gnu89 _putchar.c "$1"* -o "_$1.out" 
 
 # Check if compilation was successf
 if [ $? -eq 0 ]; then
