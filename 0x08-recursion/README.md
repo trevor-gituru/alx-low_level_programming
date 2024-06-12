@@ -48,7 +48,22 @@ julien@ubuntu:~/0x08. Recursion$ ./3-factorial
 -1
 julien@ubuntu:~/0x08. Recursion$
 ```
-## Task 
+## Task 4. Once an idea has taken hold of the brain it's almost impossible to eradicate
+Write a function that returns the value of x raised to the power of y.
+- Prototype: `int _pow_recursion(int x, int y);`
+- If `y` is lower than `0`, the function should return `-1`
+- **FYI:** The standard library provides a different function: `pow`. Run `man pow` to learn more.
+```bash
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-pow_recursion.c -o 4-pow
+julien@ubuntu:~/0x08. Recursion$ ./4-pow 
+1
+1
+65536
+25
+-1
+-125
+julien@ubuntu:~/0x08. Recursion$ 
+```
 ## Task 
 ## Task 
 
