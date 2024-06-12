@@ -150,17 +150,6 @@ julien@ubuntu:~/0x07$
 ```
 ## Task 
 ## Task 
-## Task 
-## Task 
-## Task 
-## Task 
-## Task 
-## Task 
-## Task 
-## Task 
-## Task 
-## Task 
-## Task 
 
 # Resources
 - [C - Pointer to Pointer](https://www.tutorialspoint.com/cprogramming/c_pointer_to_pointer.htm)
