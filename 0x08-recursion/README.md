@@ -80,7 +80,22 @@ julien@ubuntu:~/0x08. Recursion$ ./5-sqrt
 -1
 julien@ubuntu:~/0x08. Recursion$ 
 ```
-## Task 
+## Task 6. Inception. Is it possible?
+Write a function that returns `1` if the input integer is a [prime number](https://en.wikipedia.org/wiki/Prime_number), otherwise return `0`.
+- Prototype: `int is_prime_number(int n);`
+```bash
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 6-main.c 6-is_prime_number.c -o 6-prime
+julien@ubuntu:~/0x08. Recursion$ ./6-prime 
+0
+0
+0
+1
+0
+0
+1
+1
+julien@ubuntu:~/0x08. Recursion$ 
+```
 
 ## Resources
 - [0x08. Recursion, introduction](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/2818ba6f14f644b871dcbd746925fa15b8cd5937.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240612%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240612T090137Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=ad9b6eb3e72a1c6907ccf8cbf5f1b7d7a497008e2cc1caac8c163d124d25823d)
