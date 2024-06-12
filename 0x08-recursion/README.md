@@ -24,8 +24,30 @@ julien@ubuntu:~/0x08. Recursion$ ./1-print_rev_recursion
 reklaW notloC
 julien@ubuntu:~/0x08. Recursion$ 
 ```
-## Task 
-## Task 
+## Task 2. Dreams feel real while we're in them. It's only when we wake up that we realize something was actually strange
+Write a function that returns the length of a string.
+- Prototype: int _strlen_recursion(char *s);
+- **FYI:** The standard library provides a similar function: `strlen`. Run `man strlen` to learn more.
+```bash
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89  2-main.c 2-strlen_recursion.c -o 2-strlen_recursion
+julien@ubuntu:~/0x08. Recursion$ ./2-strlen_recursion 
+14
+julien@ubuntu:~/0x08. Recursion$ 
+```
+## Task 3. You mustn't be afraid to dream a little bigger, darling
+Write a function that returns the factorial of a given number.
+- Prototype: `int factorial(int n);`
+- If `n` is lower than `0`, the function should return `-1` to indicate an error
+- Factorial of `0` is `1`
+```bash
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-factorial.c -o 3-factorial
+julien@ubuntu:~/0x08. Recursion$ ./3-factorial 
+1
+120
+3628800
+-1
+julien@ubuntu:~/0x08. Recursion$
+```
 ## Task 
 ## Task 
 ## Task 
