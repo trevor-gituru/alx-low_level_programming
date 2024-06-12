@@ -118,7 +118,22 @@ julien@ubuntu:~/0x07$ ./5-strstr
 world
 julien@ubuntu:~/0x07$ 
 ```
-## Task 
+## Task 6. Chess is mental torture
+Write a function that prints the chessboard.
+- Prototype: `void print_chessboard(char (*a)[8]);`
+```bash
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_chessboard.c -o 7-print_chessboard
+julien@ubuntu:~/0x07$ ./7-print_chessboard 
+rkbqkbkr
+pppppppp
+
+
+
+
+PPPPPPPP
+RKBQKBKR
+julien@ubuntu:~/0x07$ 
+```
 ## Task 
 ## Task 
 ## Task 
