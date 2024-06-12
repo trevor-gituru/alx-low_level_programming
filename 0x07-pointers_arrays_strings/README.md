@@ -70,7 +70,17 @@ julien@ubuntu:~/0x07$ ./1-memcpy
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
 julien@ubuntu:~/0x07$ 
 ```
-## Task 
+## Task 2. strchr
+Write a function that locates a character in a string.
+- Prototype: `char *_strchr(char *s, char c);`
+- Returns a pointer to the first occurrence of the character `c` in the string `s`, or `NULL` if the character is not found
+- **FYI:** The standard library provides a similar function: `strchr`. Run `man strchr` to learn more.
+```bash
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-strchr.c -o 2-strchr
+julien@ubuntu:~/0x07$ ./2-strchr 
+llo
+julien@ubuntu:~/0x07$ 
+```
 ## Task 
 ## Task 
 ## Task 
