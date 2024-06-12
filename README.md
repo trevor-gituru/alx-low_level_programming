@@ -21,4 +21,5 @@ C is a powerful and foundational programming language with immense importance in
 - 0x05. C - Pointers, arrays and strings 
 - 0x06. C - More pointers, arrays and strings (Unfinished advanced task 8-12)
 - 0x07. C - Even more pointers, arrays and strings (Left with 2 advanced task 8-10)
+- 0x08. C - Recursion (Left with 2 advanced tasks task 7 - 8)
 
