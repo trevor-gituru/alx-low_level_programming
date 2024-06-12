@@ -15,7 +15,15 @@ julien@ubuntu:~/0x08. Recursion$ ./0-puts_recursion
 Puts with recursion
 julien@ubuntu:~/0x08. Recursion$ 
 ```
-## Task 
+## Task 1. Why is it so important to dream? Because, in my dreams we are together
+Write a function that prints a string in reverse.
+- Prototype: `void _print_rev_recursion(char *s);`
+```bash
+julien@ubuntu:~/0x08. Recursion$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 1-main.c 1-print_rev_recursion.c -o 1-print_rev_recursion
+julien@ubuntu:~/0x08. Recursion$ ./1-print_rev_recursion 
+reklaW notloC
+julien@ubuntu:~/0x08. Recursion$ 
+```
 ## Task 
 ## Task 
 ## Task 
