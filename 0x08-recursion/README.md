@@ -64,7 +64,22 @@ julien@ubuntu:~/0x08. Recursion$ ./4-pow
 -125
 julien@ubuntu:~/0x08. Recursion$ 
 ```
-## Task 
+## Task 5. Your subconscious is looking for the dreamer
+Write a function that returns the natural square root of a number.
+- Prototype: `int _sqrt_recursion(int n);`
+- If `n` does not have a natural square root, the function should return `-1`
+- **FYI:** The standard library provides a different function: `sqrt`. Run `man sqrt` to learn more.
+```bash
+julien@ubuntu:~/0x08. gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-sqrt_recursion.c -o 5-sqrt
+julien@ubuntu:~/0x08. Recursion$ ./5-sqrt 
+1
+32
+4
+-1
+5
+-1
+julien@ubuntu:~/0x08. Recursion$ 
+```
 ## Task 
 
 ## Resources
