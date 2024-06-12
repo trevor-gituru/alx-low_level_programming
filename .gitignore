@@ -1,2 +1,6 @@
 # Ignore vscode settings
 .vscode
+# Ignore executable files
+*/*.out
+# Ignore push script
+*/push.sh
