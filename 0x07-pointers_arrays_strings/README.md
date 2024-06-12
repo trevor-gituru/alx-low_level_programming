@@ -81,7 +81,18 @@ julien@ubuntu:~/0x07$ ./2-strchr
 llo
 julien@ubuntu:~/0x07$ 
 ```
-## Task 
+## Task 3. strspn
+Write a function that gets the length of a prefix `substring`.
+- Prototype: `unsigned int _strspn(char *s, char *accept);`
+- Returns the number of bytes in the initial segment of `s` which consist only of bytes from `accept`
+- **FYI:** The standard library provides a similar function: `strspn`. Run `man strspn` to learn more.
+
+```bash
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-strspn.c -o 3-strspn
+julien@ubuntu:~/0x07$ ./3-strspn 
+5
+julien@ubuntu:~/0x07$ 
+```
 ## Task 
 ## Task 
 ## Task 
