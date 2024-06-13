@@ -39,7 +39,19 @@ julien@ubuntu:~/0x0a. malloc, free$ ./s
 ALX SE
 julien@ubuntu:~/0x0a. malloc, free$
 ```
-## Task
+## Task 2. He who is not courageous enough to take risks will accomplish nothing in life
+Write a function that concatenates two strings.
+
+- Prototype: `char *str_concat(char *s1, char *s2);`
+- The returned pointer should point to a newly allocated space in memory which contains the contents of `s1`, followed by the contents of `s2`, and null terminated
+- if `NULL` is passed, treat it as an empty string
+- The function should return `NULL` on failure
+```bash
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-str_concat.c -o c
+julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$ ./c | cat -e
+Betty Holberton$
+julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$ 
+```
 ## Task
 ## Task
 ## Resources
