@@ -52,7 +52,25 @@ not
 everything.
 julien@ubuntu:~/0x0A. argc, argv$ 
 ```
-## Task 
+## Task 3. Neither irony nor sarcasm is argument
+Write a program that multiplies two numbers.
+- Your program should print the result of the multiplication, followed by a new line
+- You can assume that the two numbers and result of the multiplication can be stored in an integer
+- If the program does not receive two arguments, your program should print `Error`, followed by a new line, and return `1`
+```bash
+julien@ubuntu:~/0x0A. argc, argv$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-mul.c -o mul
+julien@ubuntu:~/0x0A. argc, argv$ ./mul 2 3
+6
+julien@ubuntu:~/0x0A. argc, argv$ ./mul 2 -3
+-6
+julien@ubuntu:~/0x0A. argc, argv$ ./mul 2 0
+0
+julien@ubuntu:~/0x0A. argc, argv$ ./mul 245 3245342
+795108790
+julien@ubuntu:~/0x0A. argc, argv$ ./mul
+Error
+julien@ubuntu:~/0x0A. argc, argv$ 
+```
 ## Task 
 ## Resources
 - [Arguments to main](https://publications.gbdirect.co.uk//c_book/chapter10/arguments_to_main.html)
