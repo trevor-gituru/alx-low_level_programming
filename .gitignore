@@ -4,3 +4,5 @@
 */*.out
 # Ignore push script
 */push.sh
+# Ignore the obj folder
+*/obj
