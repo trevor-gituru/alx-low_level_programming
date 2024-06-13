@@ -23,6 +23,7 @@ C is a powerful and foundational programming language with immense importance in
 - 0x07. C - Even more pointers, arrays and strings (**Left with 2 advanced task 8-10**)
 - 0x08. C - Recursion (**Left with 2 advanced tasks task 7 - 8**)
 - 0x09. C - Static libraries
+- 0x0A. C - argc, argv (**Left with 1 dvanced task, task 5**)
 
 ## Requirements
 ### C
