@@ -24,6 +24,7 @@ C is a powerful and foundational programming language with immense importance in
 - 0x08. C - Recursion (**Left with 2 advanced tasks task 7 - 8**)
 - 0x09. C - Static libraries
 - 0x0A. C - argc, argv (**Left with 1 dvanced task, task 5**)
+- 0x0B. C - malloc, free (**Left with 2 advanced task, task 5-6**)
 
 ## Requirements
 ### C
