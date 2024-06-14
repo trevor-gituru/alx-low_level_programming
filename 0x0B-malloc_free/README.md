@@ -52,7 +52,29 @@ julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0
 Betty Holberton$
 julien@ubuntu:~/c/curriculum_by_julien/holbertonschool-low_level_programming/0x0a. malloc, free$ 
 ```
-## Task
+## Task 3. If you even dream of beating me you'd better wake up and apologize
+Write a function that returns a pointer to a 2 dimensional array of integers.
+
+- Prototype: `int **alloc_grid(int width, int height);`
+- Each element of the grid should be initialized to `0`
+- The function should return `NULL` on failure
+- If `width` or `height` is `0` or negative, return `NULL`
+```bash
+julien@ubuntu:~/0x0a. malloc, free$ cat 3-main.c
+
+julien@ubuntu:~/0x0a. malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-alloc_grid.c -o g
+julien@ubuntu:~/0x0a. malloc, free$ ./g
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+
+0 0 0 98 0 0 
+0 0 0 0 0 0 
+0 0 0 0 0 0 
+0 0 0 0 402 0 
+julien@ubuntu:~/0x0a. malloc, free$
+```
 ## Task
 ## Resources
 - [0x0a - malloc & free - quick overview.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/a094c90e7f466bbeaa49cb24c8f04e7f27aaad41.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240613%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240613T113537Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d0c0f2f45b06c9efb0b5f7893854c06e7897ece5629cd705af73543a8dcc37a2)
