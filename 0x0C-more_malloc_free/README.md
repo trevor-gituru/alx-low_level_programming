@@ -56,7 +56,20 @@ julien@ubuntu:~/0x0b. more malloc, free$ ./2-calloc
 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x21
 julien@ubuntu:~/0x0b. more malloc, free$ 
 ```
-## Task 
+## Task 3. array_range
+Write a function that creates an array of integers.
+- Prototype: `int *array_range(int min, int max);`
+- The array created should contain all the values from `min` (included) to `max` (included), ordered from `min` to `max`
+- Return: the pointer to the newly created array
+- If `min > max`, return `NULL`
+- If `malloc` fails, return `NULL`
+```bash
+julien@ubuntu:~/0x0b. more malloc, free$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-array_range.c -o 3-array_range
+julien@ubuntu:~/0x0b. more malloc, free$ ./3-array_range
+0x00 0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08 0x09
+0x0a
+julien@ubuntu:~/0x0b. more malloc, free$ 
+```
 ## Resources
 - [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/should-i-cast-the-result-of-malloc-in-c)
 ## Additional Resources
