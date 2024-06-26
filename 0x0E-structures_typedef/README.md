@@ -39,6 +39,14 @@ Age: 3.500000
 Owner: Bob
 julien@ubuntu:~/0x0d. structures, typedef$ 
 ```
+### 3. Outside of a dog, a book is a man's best friend. Inside of a dog it's too dark to read
+Define a new type `dog_t` as a new name for the type `struct dog`.
+```bash
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+julien@ubuntu:~/0x0d. structures, typedef$ ./d 
+My name is Poppy, and I am 3.5 :) - Woof!
+julien@ubuntu:~/0x0d. structures, typedef$ 
+```
 ## Resources
 ### Mandatory
 - [0x0d. Structures.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/6eb80c79c99f6125450a0dc11b300d46238d1a5a.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240626T130846Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f7bbdb765b494f464ab8cacb13db38b83106f915af5ad6a149400ddaa70d45d8)
