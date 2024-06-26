@@ -58,6 +58,29 @@ julien@ubuntu:~/0x0d. structures, typedef$ ./e
 My name is Poppy, and I am 3.5 :) - Woof!
 julien@ubuntu:~/0x0d. structures, typedef$ 
 ```
+### 5. How many legs does a dog have if you call his tail a leg? Four. Saying that a tail is a leg doesn't make it a leg
+Write a function that frees dogs.
+- Prototype: void free_dog(dog_t *d);
+```bash
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 5-main.c 5-free_dog.c 4-new_dog.c -o f
+julien@ubuntu:~/0x0d. structures, typedef$ valgrind ./f
+==22840== Memcheck, a memory error detector
+==22840== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==22840== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==22840== Command: ./f
+==22840== 
+My name is Poppy, and I am 3.5 :) - Woof!
+==22840== 
+==22840== HEAP SUMMARY:
+==22840==     in use at exit: 0 bytes in 0 blocks
+==22840==   total heap usage: 4 allocs, 4 frees, 1,059 bytes allocated
+==22840== 
+==22840== All heap blocks were freed -- no leaks are possible
+==22840== 
+==22840== For counts of detected and suppressed errors, rerun with: -v
+==22840== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+julien@ubuntu:~/0x0d. structures, typedef$ 
+```
 ## Resources
 ### Mandatory
 - [0x0d. Structures.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/6eb80c79c99f6125450a0dc11b300d46238d1a5a.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240626T130846Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f7bbdb765b494f464ab8cacb13db38b83106f915af5ad6a149400ddaa70d45d8)
