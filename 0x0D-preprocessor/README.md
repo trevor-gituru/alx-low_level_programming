@@ -33,7 +33,14 @@ julien@ubuntu:~/0x0c. macro, structures$ ./cc
 02-main.c
 julien@ubuntu:~/0x0c. macro, structures$ 
 ```
-## Task 
+## Task 3. Function-like macro
+Write a function-like macro `ABS(x)` that computes the absolute value of a number `x`.
+```bash
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c -o d
+julien@ubuntu:~/0x0c. macro, structures$ ./d 
+980, 980
+julien@ubuntu:~/0x0c. macro, structures$ 
+```
 ## Task 
 
 
