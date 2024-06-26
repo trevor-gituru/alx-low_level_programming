@@ -23,6 +23,22 @@ julien@ubuntu:~/0x0d. structures, typedef$ ./b
 My name is Poppy, and I am 3.5 :) - Woof!
 julien@ubuntu:~/0x0d. structures, typedef$
 ``` 
+### 2. A dog will teach you unconditional love. If you can have that in your life, things won't be too bad
+Write a function that prints a `struct dog`
+
+- Prototype: `void print_dog(struct dog *d);`
+- Format: see example bellow
+- You are allowed to use the standard library
+- If an element of `d` is `NULL`, print `(nil)` instead of this element. (if `name` is `NULL`, print `Name: (nil)`)
+- If `d` is `NULL` print nothing.
+```bash
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 2-main.c 2-print_dog.c -o c
+julien@ubuntu:~/0x0d. structures, typedef$ ./c 
+Name: Poppy
+Age: 3.500000
+Owner: Bob
+julien@ubuntu:~/0x0d. structures, typedef$ 
+```
 ## Resources
 ### Mandatory
 - [0x0d. Structures.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/6eb80c79c99f6125450a0dc11b300d46238d1a5a.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240626T130846Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f7bbdb765b494f464ab8cacb13db38b83106f915af5ad6a149400ddaa70d45d8)
