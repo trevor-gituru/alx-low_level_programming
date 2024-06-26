@@ -12,7 +12,14 @@ julien@ubuntu:~/0x0c. macro, structures$ ./a
 1122
 julien@ubuntu:~/0x0c. macro, structures$ 
 ```
-## Task 
+## Task 1. Pi
+Create a header file that defines a macro named `PI` as an abbreviation for the token `3.14159265359`.
+```bash
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 1-main.c -o b
+julien@ubuntu:~/0x0c. macro, structures$ ./b
+30171.855
+julien@ubuntu:~/0x0c. macro, structures$ 
+```
 ## Task 
 ## Task 
 ## Task 
