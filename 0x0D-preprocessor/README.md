@@ -3,6 +3,21 @@ Concepts learnt:
 - What are macros and how to use them
 - What are the most common predefined macros
 - How to include guard your header files
+
+## Task 0. Object-like Macro
+Create a header file that defines a macro named `SIZE` as an abbreviation for the token `1024`.
+```bash
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c -o a
+julien@ubuntu:~/0x0c. macro, structures$ ./a 
+1122
+julien@ubuntu:~/0x0c. macro, structures$ 
+```
+## Task 
+## Task 
+## Task 
+## Task 
+
+
 ## Resources
 - [Understanding C program Compilation Process](https://www.youtube.com/watch?v=eW5he5uFBNM)
 - [Object-like Macros](https://gcc.gnu.org/onlinedocs/gcc-5.1.0/cpp/Object-like-Macros.html#Object-like-Macros)
