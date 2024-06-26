@@ -47,6 +47,17 @@ julien@ubuntu:~/0x0d. structures, typedef$ ./d
 My name is Poppy, and I am 3.5 :) - Woof!
 julien@ubuntu:~/0x0d. structures, typedef$ 
 ```
+### 4. A door is what a dog is perpetually on the wrong side of
+Write a function that creates a new dog.
+- Prototype: `dog_t *new_dog(char *name, float age, char *owner);`
+- You have to store a copy of `name` and `owner`
+- Return `NULL` if the function fails
+```bash
+julien@ubuntu:~/0x0d. structures, typedef$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c 4-new_dog.c -o e
+julien@ubuntu:~/0x0d. structures, typedef$ ./e
+My name is Poppy, and I am 3.5 :) - Woof!
+julien@ubuntu:~/0x0d. structures, typedef$ 
+```
 ## Resources
 ### Mandatory
 - [0x0d. Structures.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2021/1/6eb80c79c99f6125450a0dc11b300d46238d1a5a.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240626T130846Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=f7bbdb765b494f464ab8cacb13db38b83106f915af5ad6a149400ddaa70d45d8)
