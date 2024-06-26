@@ -41,7 +41,14 @@ julien@ubuntu:~/0x0c. macro, structures$ ./d
 980, 980
 julien@ubuntu:~/0x0c. macro, structures$ 
 ```
-## Task 
+## Task 4. SUM
+Write a function-like macro `SUM(x, y)` that computes the sum of the numbers `x` and `y`.
+```bash
+julien@ubuntu:~/0x0c. macro, structures$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 4-main.c -o e
+julien@ubuntu:~/0x0c. macro, structures$ ./e 
+1122
+julien@ubuntu:~/0x0c. macro, structures$ 
+```
 
 
 ## Resources
