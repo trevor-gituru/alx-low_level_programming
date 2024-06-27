@@ -11,7 +11,7 @@ void print_all(const char * const format, ...);
 /**
   * struct dt - structure
   * @letter: letter smbol for datatype
-  * @fuunc: function pointer
+  * @func: function pointer
   **/
 
 typedef struct dt
