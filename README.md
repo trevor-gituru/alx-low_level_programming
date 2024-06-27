@@ -27,6 +27,8 @@ C is a powerful and foundational programming language with immense importance in
 - 0x0B. C - malloc, free (**Left with 2 advanced task, task 5-6**)
 - 0x0C. C - More malloc, free(**Left with 2 advanced task, task 4-5**)
 - 0x0D. C - Preprocessor
+- 0x0E. C - Structures, typedef
+- 
 
 ## Requirements
 ### C
