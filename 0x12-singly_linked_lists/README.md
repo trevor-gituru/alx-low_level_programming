@@ -69,7 +69,46 @@ julien@ubuntu:~/0x12. Singly linked lists$ ./c
 [9] Alexandro
 julien@ubuntu:~/0x12. Singly linked lists$ 
 ```
+### 3. Add node at the end
+Write a function that adds a new node at the end of a `list_t list`.
 
+- Prototype: `list_t *add_node_end(list_t **head, const char *str);`
+- Return: the address of the new element, or `NULL` if it failed
+- `str` needs to be duplicated
+- You are allowed to use `strdup`
+```bash
+julien@ubuntu:~/0x12. Singly linked lists$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 3-main.c 3-add_node_end.c 0-print_list.c -o d
+julien@ubuntu:~/0x12. Singly linked lists$ ./d 
+[4] Anne
+[6] Colton
+[6] Corbin
+[6] Daniel
+[6] Danton
+[5] David
+[4] Gary
+[6] Holden
+[3] Ian
+[3] Ian
+[3] Jay
+[6] Jennie
+[5] Jimmy
+[6] Justin
+[6] Kalson
+[4] Kina
+[7] Matthew
+[3] Max
+[7] Michael
+[4] Ntuj
+[6] Philip
+[7] Richard
+[8] Samantha
+[6] Stuart
+[5] Swati
+[7] Timothy
+[6] Victor
+[6] Walton
+julien@ubuntu:~/0x12. Singly linked lists$ 
+```
 ## Resources
 - [Linked Lists](https://www.youtube.com/watch?v=udapt4FGY20&feature=youtu.be&t=2m10s)
 - [Google](https://www.geeksforgeeks.org/singly-linked-list-tutorial/)
