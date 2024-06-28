@@ -29,7 +29,9 @@ C is a powerful and foundational programming language with immense importance in
 - 0x0D. C - Preprocessor
 - 0x0E. C - Structures, typedef
 - 0x0F. C - Function pointers (**Left with 1 advanced task, task 4**)
-
+- 0x10. C - Variadic functions
+## Low-level programming & Algorithm - Data structures and Algorithms
+- 0x12. C - Singly linked lists (**Left with 2 advanced task, task 5-7**) 
 ## Requirements
 ### C
 - Allowed editors: `vi`, `vim`, `emacs`
